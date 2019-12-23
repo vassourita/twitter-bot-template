@@ -1,4 +1,4 @@
 const bannedUsers = [
-    "vass_oura", "user2", "user3"
+    "user1", "user2", "user3"
 ]
 module.exports = bannedUsers;
