@@ -1,6 +1,6 @@
 # twitter-bot-template
 
-**A node.js template to build easy, simple Twitter Bots**
+**A node.js template to easily build Twitter Bots**
 
 ## How to create your own Twitter Bot:
 
@@ -25,3 +25,9 @@
 - Rename '.env.example' as '.env' and insert your credentials in their respective fields
 
 ### Setting your bot
+
+- Inside the "config" folder, open "track.js"
+- In the "track" array enter the words you want the bot to search for and retweet, separating each by comma and inside double quotes
+- Open "users.js"
+- In the "bannedUsers" array enter the **@** of users whose tweets you want the bot to ignore
+- Run "npm run start"
