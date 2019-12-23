@@ -34,6 +34,8 @@ Feel free to use, copy, modify and publish your bot as you want, but **be sure t
 - In the "track" array enter the words you want the bot to search for and retweet, separating each by comma and inside double quotes
 - Open "users.js"
 - In the "bannedUsers" array enter the **@** of users whose tweets you want the bot to ignore
+- Open "follow.js"
+- Set "followBack" as "true" if you want your bot to follow back anyone who follows him. The bot will follow everyone that follows him once in a hour.
 - Run "npm run start"
 
 ### Hosting your bot
@@ -43,6 +45,6 @@ Feel free to use, copy, modify and publish your bot as you want, but **be sure t
 
 ---
 
-If you need any help on doing this or thinks this tutorial has errors, please tell me on [Twitter](https://twitter.com/vass_oura) or [create an issue](https://github.com/vassourita/twitter-bot-template/issues/new) on this repo!
+If you need help doing this or find any errors in this tutorial, please tell me on [Twitter](https://twitter.com/vass_oura) or [create an issue](https://github.com/vassourita/twitter-bot-template/issues/new) on this repo!
 
 [Twitter api documentation](https://developer.twitter.com/en/docs/basics/getting-started) contains lots of useful information that you might want to use if you plan on customizing this bot and adding functionalities.

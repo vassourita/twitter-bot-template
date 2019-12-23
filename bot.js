@@ -1,6 +1,7 @@
 const T = require("./config/keys");
 const track = require("./config/track");
 const bannedUsers = require("./config/users");
+const followBack = require("./config/follow");
 
 let user;
 T.get("account/settings", (err, data, response) => {
@@ -26,4 +27,17 @@ try {
     });
 } catch (err) {
     console.log("An error ocurred:\n" + err + "\n");
+}
+
+if (followBack) {
+    followBackUsers();
+    setInterval(followBackUsers, 1000 * 60 * 60);
+}
+function followBackUsers() {
+    T.get("followers/ids", { stringify_ids: true }, (err, data, response) => {
+        data.ids.map(async userId => {
+            await T.post("friendships/create", { user_id: userId }, () => { });
+        });
+        console.log("Followed back users\n");
+    });
 }
