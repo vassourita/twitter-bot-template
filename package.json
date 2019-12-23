@@ -4,8 +4,7 @@
   "description": "A node.js template to build easy, simple Twitter Bots",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
-    "dev": "nodemon bot.js"
+    "start": "node bot.js"
   },
   "repository": {
     "type": "git",

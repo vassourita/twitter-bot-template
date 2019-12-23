@@ -6,21 +6,22 @@
 
 ### Getting the credentials
 
-* Create a new Twitter account
-* Visit [developer.twitter.com](developer.twitter.com)
-* Assign for a developer account, answer the questions and await for a developer license
-* Logged in as a developer, open the "apps" tab and click "create an app"
-* Answer the questions about your app
-* Inside your app tab, open 'access and tokens' an copy the 'consumer api keys'
-* Generate access token and copy them too
-* In total, you should have four keys. Save them for later.
+- Create a new Twitter account
+- Visit [developer.twitter.com](developer.twitter.com)
+- Assign for a developer account, answer the questions and await for a developer license
+- Logged in as a developer, open the "apps" tab and click "create an app"
+- Answer the questions about your app
+- Inside your app tab, open 'access and tokens' an copy the 'consumer api keys'
+- Generate access token and copy them too
+- In total, you should have four credentials. Save them for later.
 
-### Cloning this repository
+### Downloading and setting the environment
 
-* Install [Git](https://git-scm.com/) in your computer
-* Open your desktop using the command line
-* Run "git clone https://<i></i>github.com/vassourita/twitter-bot-template.git"
-* A new folder named "twitter-bot-template" will be created
-* Open the folder in a text editor such as vscode as sublime text
+- [https://nodejs.org/en/](Install Node) in your computer
+- [https://github.com/vassourita/twitter-bot-template/archive/master.zip](Download) this repository in your computer
+- Open the folder in a text editor such as vsCode as Sublime Text
+- Open the project root folder in a command line such as cmd or Git Bash
+- run "npm install" and await for the dependencies to be installed
+- Rename '.env.example' as '.env' and insert your credentials in their respective fields
 
 ### Setting your bot
