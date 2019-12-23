@@ -9,7 +9,7 @@
 ### Getting the credentials
 
 > - Create a new Twitter account
-> - Visit [developer.twitter.com](developer.twitter.com)
+> - Visit [Twitter Developer Tools](developer.twitter.com)
 > - Assign for a developer account, answer the questions and await for a developer license
 > - Logged in as a developer, open the "apps" tab and click "create an app"
 > - Answer the questions about your app
@@ -19,8 +19,8 @@
 
 ### Downloading and setting the environment
 
-> - [https://nodejs.org/en/](Install Node) in your computer
-> - [https://github.com/vassourita/twitter-bot-template/archive/master.zip](Download) this repository in your computer
+> - [Install Node](https://nodejs.org/en/) in your computer
+> - [Download](https://github.com/vassourita/twitter-bot-template/archive/master.zip) this repository in your computer
 > - Open the folder in a text editor such as vsCode as Sublime Text
 > - Open the project root folder in a command line such as cmd or Git Bash
 > - run "npm install" and await for the dependencies to be installed
@@ -37,8 +37,8 @@
 ### Hosting your bot
 
 > - Running a bot on your own computer is not cpu-intensive, but I suggest to host your bot on a cloud service such as Heroku
-> - [https://www.youtube.com/watch?v=DwWPunpypNA](This tutorial) from [https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw](Coding Train) can help on hosting a free service on Heroku
+> - [This tutorial](https://www.youtube.com/watch?v=DwWPunpypNA) from [Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) can help on hosting a free service on Heroku
 
 ---
 
-If you need any help on doing this or thinks this tutorial has errors, please tell me!
+If you need any help on doing this or thinks this tutorial has errors, please tell me on [Twitter](https://twitter.com/vass_oura) or [create an issue](https://github.com/vassourita/twitter-bot-template/issues/new) on this repo!
