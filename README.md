@@ -15,21 +15,21 @@ Feel free to use, copy, modify and publish your bot as you want, but **be sure t
 - Assign for a developer account, answer the questions and await for a developer license
 - Logged in as a developer, open the "apps" tab and click "create an app"
 - Answer the questions about your app
-- Inside your app tab, open 'access and tokens' an copy the 'consumer api keys'
-- Generate access token and copy them too
-- In total, you should have four credentials. Save them for later.
+- Inside your app tab, open "access and tokens" an copy both "consumer api keys"
+- Generate both access tokens and copy them too
+- In total, you should have four credentials. Save them for later
 
 ### Downloading and setting the environment
 
 - [Install Node](https://nodejs.org/en/) in your computer
 - [Download](https://github.com/vassourita/twitter-bot-template/archive/master.zip) this repository in your computer
-- Open the folder in a text editor such as vsCode as Sublime Text
+- Open the folder in a text editor such as Visual Studio Code or Sublime Text
 - Open the project root folder in a command line such as cmd or Git Bash
 - run "npm install" and await for the dependencies to be installed
 
 ### Setting and running your bot
 
-- Rename file '.env.example' as '.env' and insert your credentials in their respective fields
+- Rename file ".env.example" as ".env" and insert your credentials in their respective fields
 - Inside the "config" folder, open "track.js"
 - In the "track" array enter the words you want the bot to search for and retweet, separating each by comma and inside double quotes
 - Open "users.js"
@@ -45,4 +45,6 @@ Feel free to use, copy, modify and publish your bot as you want, but **be sure t
 
 If you need help doing this or find any errors in this tutorial, please tell me on [Twitter](https://twitter.com/vass_oura) or [create an issue](https://github.com/vassourita/twitter-bot-template/issues/new) on this repo!
 
-[Twitter api documentation](https://developer.twitter.com/en/docs/basics/getting-started) contains lots of useful information that you might want to use if you plan on customizing this bot and adding functionalities.
+[Twitter api documentation](https://developer.twitter.com/en/docs/basics/getting-started) contains lots of useful info that you might want to use if you plan on customizing this bot and adding new functionalities.
+
+Also feel free to fork this repo! I'll love to see new functionalities on the bot.
