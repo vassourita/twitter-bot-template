@@ -34,8 +34,6 @@ Feel free to use, copy, modify and publish your bot as you want, but **be sure t
 - In the "track" array enter the words you want the bot to search for and retweet, separating each by comma and inside double quotes
 - Open "users.js"
 - In the "bannedUsers" array enter the **@** of users whose tweets you want the bot to ignore
-- Open "follow.js"
-- Set "followBack" as "true" if you want your bot to follow back anyone who follows him. The bot will follow everyone that follows him once in a hour.
 - Run "npm run start"
 
 ### Hosting your bot
