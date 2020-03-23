@@ -33,7 +33,7 @@ Feel free to use, copy, modify and publish your bot as you want, but **be sure t
 - Inside the "config" folder, open "track.js"
 - In the "track" array enter the words you want the bot to search for and retweet, separating each by comma and inside double quotes
 - Open "users.js"
-- In the "bannedUsers" array enter the **@** of users whose tweets you want the bot to ignore
+- In the "bannedUsers" array enter the **@** of users whose tweets you want the bot to ignore. This is essential to avoid users using your bot to gain RTs
 - Run "npm run start"
 
 ### Hosting your bot
