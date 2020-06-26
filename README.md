@@ -17,7 +17,7 @@ The first bot created with this template was my own bot, [Vassoura Bot](https://
 - Any text editor (i suggest [VS Code](https://code.visualstudio.com/))
 - Twitter developer credentials. These are a little tricky to get
   - First, create a twitter account for your bot.
-  - Logged on twitter on the bot account, visit [Twitter Developer Tools](developer.twitter.com)
+  - Logged on twitter on the bot account, visit [Twitter Developer Tools](https://developer.twitter.com)
   - Assign for a developer account, answer the questions and await for a developer license (this may take hours or weeks)
   - After getting your license, visit [Twitter Developer Tools](developer.twitter.com) again logged on your bot account, open the "apps" tab and click "create an app"
   - Answer the questions about your app
