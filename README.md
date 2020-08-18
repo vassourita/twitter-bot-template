@@ -6,7 +6,7 @@ Feel free to use, copy, modify and publish your bot as you want, but I would be 
 
 If you are a programmer, remember that this repository was created thinking on people who don't code and want to create their own Twitter Retweet Bot
 
-The first bot created with this template was my own bot, [Vassoura Bot](https://twitter.com/vass_oura_bot), but to this moment there are at least other 9 bots running based on this template.
+The first bot created with this template was my own bot, [Vassoura Bot](https://twitter.com/vass_oura_bot), but to this moment there are at least other 21 bots running based on this template.
 
 ---
 
