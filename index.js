@@ -31,7 +31,7 @@ const screenName = 'mybot';
  */
 
 const twit = new Twit(config);
-const stream = twit.stream('statuses/filter', { track: words.split(',') });
+const stream = twit.stream('statuses/filter', { track: words.split(',').map(w => w.trim()) });
 
 console.log('Bot is starting!');
 try {
