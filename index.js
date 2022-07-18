@@ -1,14 +1,5 @@
 const Twit = require('twit');
-
-/*
- * - Insert each Twitter credential inside it's equivalent quote.
- */
-const config = {
-  consumer_key: '',
-  consumer_secret: '',
-  access_token: '',
-  access_token_secret: '',
-};
+const { config } = require("./config");
 
 /*
  * - Replace "ex1, ex2" with the words you want to retweet.
@@ -21,12 +12,6 @@ const config = {
 const words = 'ex1,ex2';
 
 /*
- * - Change 'mybot' with your bot account '@'.
- * - Example: if your account '@' is '@twitter_bot', you should write only 'twitter_bot'
- */
-const screenName = 'mybot';
-
-/*
  * If you are a not a programmer, avoid changing anything on the next lines
  */
 
@@ -36,7 +21,7 @@ const stream = twit.stream('statuses/filter', { track: words.split(',').map(w =>
 console.log('Bot is starting!');
 try {
   stream.on('tweet', tweet => {
-    if (tweet.user.screen_name === screenName) return;
+    if (tweet.user.screen_name === config.screenName) return;
 
     if (!tweet.retweeted_status) {
       twit.post('statuses/retweet/:id', { id: tweet.id_str }, (err, data) => {
