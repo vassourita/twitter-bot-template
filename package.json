@@ -23,6 +23,10 @@
   },
   "homepage": "https://github.com/vassourita/twitter-bot-template#readme",
   "dependencies": {
+    "nano": "^10.0.0",
     "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "ajv": "^8.11.0"
   }
 }
